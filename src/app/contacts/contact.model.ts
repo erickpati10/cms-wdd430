@@ -4,7 +4,7 @@ export class Contact {
   public email: string;
   public phone: string;
   public imageUrl: string;
-  public group: Contact[]; // Array of other contacts that belong to the group
+  public group: Contact[];
 
   constructor(
     id: number,
